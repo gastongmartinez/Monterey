@@ -49,7 +49,7 @@ CASKS=(
     'affinity-designer'
 )
 for CASK in "${CASKS[@]}"; do
-    brew install -- cask"$CASK"
+    brew install -- cask "$CASK"
 done
 
 # Git
