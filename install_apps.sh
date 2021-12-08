@@ -25,6 +25,7 @@ FORMS=(
     'autojump'
     'fzf'
     'the_silver_searcher'
+    'openjdk@8'
 )
 for FORM in "${FORMS[@]}"; do
     brew install "$FORM"
